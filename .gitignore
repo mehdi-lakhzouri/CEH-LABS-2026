@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Terminal logs
+**/evidence/terminal/*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
