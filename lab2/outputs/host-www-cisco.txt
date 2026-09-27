@@ -1,0 +1,6 @@
+www.cisco.com is an alias for www.cisco.com.akadns.net.
+www.cisco.com.akadns.net is an alias for wwwds.cisco.com.edgekey.net.
+wwwds.cisco.com.edgekey.net is an alias for e2867.dsca.akamaiedge.net.
+e2867.dsca.akamaiedge.net has address 2.20.112.118
+e2867.dsca.akamaiedge.net has IPv6 address 2001:41a8:47:c99::b33
+e2867.dsca.akamaiedge.net has IPv6 address 2001:41a8:47:c84::b33

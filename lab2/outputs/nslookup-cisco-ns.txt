@@ -1,0 +1,12 @@
+Server:		192.168.119.2
+Address:	192.168.119.2#53
+
+Non-authoritative answer:
+cisco.com	nameserver = ns2.cisco.com.
+cisco.com	nameserver = ns1.cisco.com.
+cisco.com	nameserver = ns3.cisco.com.
+cisco.com	nameserver = a3-64.akam.net.
+cisco.com	nameserver = a28-64.akam.net.
+
+Authoritative answers can be found from:
+

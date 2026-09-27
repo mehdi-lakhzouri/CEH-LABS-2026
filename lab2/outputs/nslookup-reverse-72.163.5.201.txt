@@ -1,0 +1,4 @@
+201.5.163.72.in-addr.arpa	name = ns1.cisco.com.
+
+Authoritative answers can be found from:
+

@@ -1,0 +1,13 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	skillsforall.com
+Address: 3.175.86.35
+Name:	skillsforall.com
+Address: 3.175.86.75
+Name:	skillsforall.com
+Address: 3.175.86.49
+Name:	skillsforall.com
+Address: 3.175.86.110
+
