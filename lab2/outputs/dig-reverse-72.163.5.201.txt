@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> -x 72.163.5.201
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54035
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+;; QUESTION SECTION:
+;201.5.163.72.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+201.5.163.72.in-addr.arpa. 5	IN	PTR	ns1.cisco.com.
+
+;; Query time: 3 msec
+;; SERVER: 192.168.119.2#53(192.168.119.2) (UDP)
+;; WHEN: Sun Sep 27 06:20:48 EDT 2026
+;; MSG SIZE  rcvd: 81
+

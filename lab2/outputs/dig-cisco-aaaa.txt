@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> cisco.com AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4912
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 512
+;; QUESTION SECTION:
+;cisco.com.			IN	AAAA
+
+;; ANSWER SECTION:
+cisco.com.		5	IN	AAAA	2001:420:1101:1::185
+
+;; Query time: 27 msec
+;; SERVER: 192.168.119.2#53(192.168.119.2) (UDP)
+;; WHEN: Sun Sep 27 06:14:55 EDT 2026
+;; MSG SIZE  rcvd: 66
+

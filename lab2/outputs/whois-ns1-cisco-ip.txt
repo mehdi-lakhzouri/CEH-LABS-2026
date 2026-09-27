@@ -1,0 +1,67 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       72.163.0.0 - 72.163.255.255
+CIDR:           72.163.0.0/16
+NetName:        CISCO-GEN-7
+NetHandle:      NET-72-163-0-0-1
+Parent:         NET72 (NET-72-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       
+Organization:   CISCO SYSTEMS, INC. (CS-2831)
+RegDate:        2006-10-24
+Updated:        2024-03-08
+Comment:        Geofeed https://www.cisco.com/web/automation/CiscoAS109_geoip.csv
+Ref:            https://rdap.arin.net/registry/ip/72.163.0.0
+
+
+OrgName:        CISCO SYSTEMS, INC.
+OrgId:          CS-2831
+Address:        251 LITTLE FALLS DRIVE
+City:           WILMINGTON
+StateProv:      DE
+PostalCode:     19808
+Country:        US
+RegDate:        2023-06-07
+Updated:        2024-02-16
+Ref:            https://rdap.arin.net/registry/entity/CS-2831
+
+
+OrgNOCHandle: GATC-ARIN
+OrgNOCName:   GIS ARIN Technical Contact
+OrgNOCPhone:  +1-408-526-8888 
+OrgNOCEmail:  cidr-block-admins@cisco.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/GATC-ARIN
+
+OrgTechHandle: GATC-ARIN
+OrgTechName:   GIS ARIN Technical Contact
+OrgTechPhone:  +1-408-526-8888 
+OrgTechEmail:  cidr-block-admins@cisco.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/GATC-ARIN
+
+OrgAbuseHandle: CISCO6-ARIN
+OrgAbuseName:   Cisco CSIRT
+OrgAbusePhone:  +1-408-527-3227 
+OrgAbuseEmail:  csirt-notify@cisco.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/CISCO6-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+

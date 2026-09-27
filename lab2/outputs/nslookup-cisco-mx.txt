@@ -1,0 +1,10 @@
+Server:		192.168.119.2
+Address:	192.168.119.2#53
+
+Non-authoritative answer:
+cisco.com	mail exchanger = 20 rcdn-mx-01.cisco.com.
+cisco.com	mail exchanger = 30 aer-mx-01.cisco.com.
+cisco.com	mail exchanger = 10 alln-mx-01.cisco.com.
+
+Authoritative answers can be found from:
+

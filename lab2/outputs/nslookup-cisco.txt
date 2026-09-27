@@ -1,0 +1,9 @@
+Server:		192.168.119.2
+Address:	192.168.119.2#53
+
+Non-authoritative answer:
+Name:	cisco.com
+Address: 72.163.4.185
+Name:	cisco.com
+Address: 2001:420:1101:1::185
+

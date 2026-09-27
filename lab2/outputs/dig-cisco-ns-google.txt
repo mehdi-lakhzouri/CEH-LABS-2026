@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> @8.8.8.8 cisco.com NS
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38068
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;cisco.com.			IN	NS
+
+;; ANSWER SECTION:
+cisco.com.		1381	IN	NS	ns2.cisco.com.
+cisco.com.		1381	IN	NS	a28-64.akam.net.
+cisco.com.		1381	IN	NS	ns1.cisco.com.
+cisco.com.		1381	IN	NS	a3-64.akam.net.
+cisco.com.		1381	IN	NS	ns3.cisco.com.
+
+;; Query time: 44 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Sun Sep 27 06:16:53 EDT 2026
+;; MSG SIZE  rcvd: 141
+

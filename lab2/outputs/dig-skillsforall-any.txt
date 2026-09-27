@@ -1,0 +1,34 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> skillsforall.com ANY
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2909
+;; flags: qr rd ra; QUERY: 1, ANSWER: 15, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;skillsforall.com.		IN	ANY
+
+;; ANSWER SECTION:
+skillsforall.com.	60	IN	A	3.175.86.75
+skillsforall.com.	60	IN	A	3.175.86.110
+skillsforall.com.	60	IN	A	3.175.86.35
+skillsforall.com.	60	IN	A	3.175.86.49
+skillsforall.com.	21600	IN	NS	ns-1652.awsdns-14.co.uk.
+skillsforall.com.	21600	IN	NS	ns-1130.awsdns-13.org.
+skillsforall.com.	21600	IN	NS	ns-489.awsdns-61.com.
+skillsforall.com.	21600	IN	NS	ns-588.awsdns-09.net.
+skillsforall.com.	900	IN	SOA	ns-1130.awsdns-13.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+skillsforall.com.	1800	IN	MX	10 inbound-smtp.us-east-1.amazonaws.com.
+skillsforall.com.	1800	IN	TXT	"d1g1l9y74sxj8m.cloudfront.net"
+skillsforall.com.	1800	IN	TXT	"v=spf1 include:amazonses.com ~all"
+skillsforall.com.	1800	IN	TXT	"google-site-verification=Q5NIWRygJYTSLxuHReNKw1kvgC8IXKTOyPf5zITDv40"
+skillsforall.com.	1800	IN	TXT	"identrust_validate=XzTu3rqoVVwnwNykPpaGYBeA4de5HaSynIEnsHWXyIur"
+skillsforall.com.	1800	IN	TXT	"facebook-domain-verification=8cg08gu4eikp0d2d1quqhjwh5ti1vv"
+
+;; Query time: 84 msec
+;; SERVER: 192.168.119.2#53(192.168.119.2) (TCP)
+;; WHEN: Sun Sep 27 06:15:15 EDT 2026
+;; MSG SIZE  rcvd: 673
+
