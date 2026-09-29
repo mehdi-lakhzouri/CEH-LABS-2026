@@ -30,6 +30,12 @@ CEH/
 │   └── tools/
 ├── lab2/
 │   └── ...
+├── lab3/
+│   ├── README.md
+│   ├── notes/
+│   ├── outputs/
+│   ├── evidence/screenshots/
+│   └── tools/
 └── labN/
 ```
 
@@ -100,6 +106,46 @@ Use DNS and WHOIS tools for passive reconnaissance and understand publicly expos
 - WHOIS complements DNS with registration and network-allocation data.
 - dig provides detailed structured responses while nslookup is useful for quick interactive lookups.
 - Reverse DNS relies on PTR records and not every IP address has one.
+
+## Lab 3 - Finding Out About the Organization
+
+### Objective
+
+Perform passive reconnaissance on an organization using email-related OSINT techniques and file metadata analysis.
+
+### Work Performed
+
+- Used public breach-checking services to examine email exposure.
+- Used EmailHarvester to perform domain-oriented email reconnaissance.
+- Tested `h4cker.org` and `hackxor.net`.
+- Reviewed SpiderFoot modules relevant to email, accounts, archives, search engines, and breach-related intelligence.
+- Installed and used ExifTool for metadata analysis.
+- Reviewed supported file formats with `exiftool -listf`.
+- Analyzed multiple PNG files individually and as a directory.
+- Exported metadata from the sample directory to CSV.
+
+### Key Results
+
+- EmailHarvester outputs were collected for `h4cker.org` and `hackxor.net`.
+- SpiderFoot was used to explore organization and email-related OSINT sources.
+- ExifTool 13.55 successfully analyzed the test files.
+- The analyzed PNG files exposed mainly technical metadata such as:
+  - file type;
+  - MIME type;
+  - timestamps;
+  - image dimensions;
+  - compression;
+  - megapixel count.
+- No author, creator, GPS, camera model, or sensitive software metadata was found in the tested screenshots.
+- Metadata for the full sample directory was successfully exported to `outputs/metadata.csv`.
+
+### Main Lessons
+
+- Email reconnaissance can provide useful leads about employees, exposed accounts, domains, and breach history.
+- OSINT results should be validated across multiple sources because public data may be incomplete or inconsistent.
+- File metadata can expose technical or organizational information that may assist reconnaissance.
+- Metadata exposure depends heavily on the file type and the software or device used to create the file.
+- Files intended for public distribution should have their metadata reviewed before publication.
 
 ## Lab Workflow
 
