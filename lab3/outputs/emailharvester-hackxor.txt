@@ -1,0 +1,10 @@
+[+] User-Agent in use: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+[+] Searching everywhere
+[+] Searching in Yahoo: 101 results
+[+] Searching in Twitter
+[+] Searching in Yahoo + Twitter: 101 results
+[+] Searching in Bing + Twitter: 50 results
+[+] Searching in Bing + Twitter: 100 results
+[+] Searching in Google + Twitter: 100 results
+[+] Searching in Baidu + Twitter: 10 results
+HTTPSConnectionPool(host='wappass.baidu.com', port=443): Max retries exceeded with url: /static/captcha/tuxing_v2.html?&logid=10227329633900918581&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fsearch%2Fs%3Fwd%3Dsite%253Atwitter.com%2Bintitle%3A%2522on%2520Twitter%2522%2B%2522%2540hackxor.net%2522%26pn%3D10&ext=x9G9QDmMXq%2FNo87gjGO0P8ZUwVZlb1hHH24VI15LQlsU7WzlPz6Amg5n%2BPsfr%2BLNt2orZ5OCXQ3B1zT3JaVXz9yIkAur1Q%2FpCmIdiEGTISN5UO9aDOdHRZFDvbg2gYiZSCAe1EQ3IsG%2BFn2u6CQ8X0ggHtRENyLBvhZ9rugkPF%2Fke2h2mqIXvBnD5tzUYbdpSCAe1EQ3IsG%2BFn2u6CQ8X0ggHtRENyLBvhZ9rugkPF8nuOfLq0AluADoMq%2BhloV8&signature=01ba828a591d703437d02a607b3ca694&timestamp=1790664268 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1127)')))
