@@ -58,6 +58,7 @@ Each lab contains its own documentation, selected outputs, screenshots, and tech
 | Lab 4 | Finding Information from SSL Certificates | OpenSSL, crt.sh, sslscan | Paused |
 | Lab 5 | Vulnerability Scanning with Kali Tools | Nmap, Vulners, GVM | Paused |
 | [TP 4.4.7](explore-the-social-engineer-toolkit/README.md) | Explore the Social-Engineer Toolkit | SET, Docker, DVWA | Documented - cleanup verification pending |
+| [TP 4.4.8](using-the-browser-exploitation-framework-beef/README.md) | Using the Browser Exploitation Framework | BeEF, Firefox | Documented - final verification pending |
 
 ## Lab 1 - Using OSINT Tools
 
@@ -200,6 +201,44 @@ Explore SET and demonstrate the security risks associated with deceptive login i
 - Confirm SET shutdown and cleanup of temporary firewall rules.
 - Verify browser redirection and XML report generation where applicable.
 - Review and sanitize screenshots before publication.
+
+## TP 4.4.8 - Using the Browser Exploitation Framework (BeEF)
+
+### Objective
+
+Explore browser hooking, client-side security testing, and social-engineering simulations in a controlled local environment.
+
+### Work Performed
+
+- Launched BeEF and accessed its Web dashboard.
+- Hooked the local Firefox browser using the official The Butcher demo.
+- Identified the hook.js script in the HTML source.
+- Inspected browser metadata and capabilities.
+- Explored command modules and compatibility indicators.
+- Examined Network Map, Hosts, and Services.
+- Demonstrated Fake Notification Bar in Firefox.
+- Executed TabNabbing and inspected browser activity logs.
+
+### Key Results
+
+- Firefox 140.0 appeared under Online Browsers.
+- The hook.js reference was identified on line 31.
+- Detect Antivirus appeared under Host with a green indicator.
+- Network Map displayed the Linux host 127.0.0.1.
+- The Services view showed no discovered services.
+- A simulated Firefox notification was displayed.
+- TabNabbing command events and browser activity were recorded.
+- Final TabNabbing page replacement was not independently confirmed by the provided screenshots.
+
+### Documentation
+
+- [Lab Overview](using-the-browser-exploitation-framework-beef/README.md)
+- [Part 1 - BeEF GUI and Browser Hooking](using-the-browser-exploitation-framework-beef/notes/part1-beef-gui-browser-hooking.md)
+- [Part 2 - Browser Exploitation Capabilities](using-the-browser-exploitation-framework-beef/notes/part2-browser-exploitation.md)
+
+### Security Lessons
+
+Browser-based attacks can manipulate interfaces and observe user interactions. Browser updates, phishing-resistant MFA, URL verification, and strict testing isolation are important defensive controls.
 
 ## Lab Workflow
 
