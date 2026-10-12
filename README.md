@@ -36,6 +36,13 @@ CEH/
 │   ├── outputs/
 │   ├── evidence/screenshots/
 │   └── tools/
+├── lab3/
+│   └── ...
+├── explore-the-social-engineer-toolkit/
+│   ├── README.md
+│   ├── notes/
+│   ├── outputs/
+│   └── evidence/screenshots/
 └── labN/
 ```
 
@@ -45,8 +52,12 @@ Each lab contains its own documentation, selected outputs, screenshots, and tech
 
 | Lab | Topic | Main Tools | Status |
 | --- | --- | --- | --- |
-| Lab 1 | Using OSINT Tools | OSINT Framework, WhatsMyName, SpiderFoot, Recon-ng | Completed |
-| Lab 2 | DNS Lookups | nslookup, whois, dig, host | Completed |
+| [Lab 1](lab1/README.md) | Using OSINT Tools | Recon-ng, SpiderFoot, OSINT Framework | Completed |
+| [Lab 2](lab2/README.md) | DNS Lookups | nslookup, whois, dig, host | Completed |
+| [Lab 3](lab3/README.md) | Finding Out About the Organization | EmailHarvester, SpiderFoot, ExifTool | Completed |
+| Lab 4 | Finding Information from SSL Certificates | OpenSSL, crt.sh, sslscan | Paused |
+| Lab 5 | Vulnerability Scanning with Kali Tools | Nmap, Vulners, GVM | Paused |
+| [TP 4.4.7](explore-the-social-engineer-toolkit/README.md) | Explore the Social-Engineer Toolkit | SET, Docker, DVWA | Documented - cleanup verification pending |
 
 ## Lab 1 - Using OSINT Tools
 
@@ -146,6 +157,49 @@ Perform passive reconnaissance on an organization using email-related OSINT tech
 - File metadata can expose technical or organizational information that may assist reconnaissance.
 - Metadata exposure depends heavily on the file type and the software or device used to create the file.
 - Files intended for public distribution should have their metadata reviewed before publication.
+
+## TP 4.4.7 - Explore the Social-Engineer Toolkit
+
+### Objective
+
+Explore SET and demonstrate the security risks associated with deceptive login interfaces in an isolated laboratory.
+
+### Work Performed
+
+- Launched Social-Engineer Toolkit 8.0.3 on Kali Linux.
+- Explored social-engineering and website attack modules.
+- Deployed DVWA and MariaDB using Docker Compose.
+- Studied SET Site Cloner using the local DVWA login page.
+- Performed a controlled form submission with synthetic credentials.
+- Inspected the SET HTTP listener and applied a temporary network restriction.
+
+### Key Results
+
+- DVWA was accessible locally on 127.0.0.1:4280.
+- SET served a demonstration login interface on TCP port 80.
+- SET received synthetic form parameters: username, password, Login, and user_token.
+- The SET listener was observed on 0.0.0.0:80, highlighting the importance of network isolation.
+- Three technical reports and a dedicated lab README were prepared.
+
+### Documentation
+
+- [Lab Overview](explore-the-social-engineer-toolkit/README.md)
+- [Part 1 - SET Exploration](explore-the-social-engineer-toolkit/notes/part1-set-exploration.md)
+- [Part 2 - Website Cloning](explore-the-social-engineer-toolkit/notes/part2-website-cloning.md)
+- [Part 3 - Controlled Simulation](explore-the-social-engineer-toolkit/notes/part3-phishing-simulation.md)
+
+### Main Lessons
+
+- A familiar login interface does not guarantee the authenticity of a website.
+- Phishing-resistant MFA and careful domain verification help mitigate credential phishing.
+- Security testing tools must be restricted to authorized environments.
+- Credential values, session tokens, and unredacted capture logs must not be published.
+
+### Remaining Validation
+
+- Confirm SET shutdown and cleanup of temporary firewall rules.
+- Verify browser redirection and XML report generation where applicable.
+- Review and sanitize screenshots before publication.
 
 ## Lab Workflow
 
